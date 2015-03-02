@@ -11,13 +11,14 @@ public class Digit {
 			digits = 0;
 			while(num > 0){
 				digits = num % 10;
+				digit = new int[num];
 				digit = new int[]{digits};			
 				num = num / 10;				
 				i++;
-				//System.out.print("The Digits are: "+digits+" ,");
+				System.out.print("The Digits are: "+digits+" ,");
 			}
-			System.out.println("The length of the given: "+number+ " is: "+i);
-			System.out.println("The Digits are: "+digit+" ,");
+			System.out.println("The length of the given "+number+ " is: "+i);
+			//System.out.println("The Digits are: "+digit+" ,");
 			
 		}
 		catch(Exception exception){
