@@ -15,7 +15,7 @@ public class Digit {
 				digit = new int[]{digits};			
 				num = num / 10;				
 				i++;
-				System.out.print("The Digits are: "+digits+" ,");
+				System.out.print("The Digits are: "+digit+" ,");
 			}
 			System.out.println("The length of the given "+number+ " is: "+i);
 			//System.out.println("The Digits are: "+digit+" ,");
