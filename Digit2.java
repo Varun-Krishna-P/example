@@ -17,11 +17,11 @@ public class Digit2 {
 				if(!digitString.toString().isEmpty()){
 					digitString.append(", ");
 				}
-				System.out.println("The digits are: "+numChar);	
+				//System.out.println("The digits are: "+numChar);	
 				digitString.append(numChar);				
 			}				
 			System.out.println("The length of the given "+number+ " is: "+digit.length());
-			System.out.println("The string Builder value is: "+digitString);
+			System.out.println("The Digits are: "+digitString);
 			
 		}
 		catch(Exception exception){
